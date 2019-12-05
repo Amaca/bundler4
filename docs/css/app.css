@@ -1,0 +1,85 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'futura-pt', sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; }
+
+body,
+html {
+  font-family: 'futura-pt', sans-serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400; }
+
+[ng-click],
+[link-to],
+button,
+a {
+  cursor: pointer; }
+  [ng-click], [ng-click]:hover, [ng-click]:active, [ng-click]:focus, [ng-click]:visited,
+  [link-to],
+  [link-to]:hover,
+  [link-to]:active,
+  [link-to]:focus,
+  [link-to]:visited,
+  button,
+  button:hover,
+  button:active,
+  button:focus,
+  button:visited,
+  a,
+  a:hover,
+  a:active,
+  a:focus,
+  a:visited {
+    text-decoration: none; }
+
+button {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  font-size: 1rem; }
+  button:focus, button:active {
+    outline: none; }
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+  -webkit-appearance: none; }
+
+.btn {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle; }
+  .btn i,
+  .btn span {
+    height: auto;
+    line-height: 1;
+    vertical-align: middle; }
+
+a:disabled,
+[type=reset]:disabled,
+[type=submit]:disabled,
+button:disabled,
+.btn:disabled {
+  cursor: auto;
+  pointer-events: none; }
+
+::-webkit-search-cancel-button {
+  display: none; }
+  @media (max-width: 576px) {
+    ::-webkit-search-cancel-button {
+      display: block; } }
+/*# sourceMappingURL=app.css.map */

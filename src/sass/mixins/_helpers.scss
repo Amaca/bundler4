@@ -1,0 +1,43 @@
+@mixin clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@mixin transition() {
+    transition: all 400ms cubic-bezier(0.670, 0.005, 0.210, 1.000);
+    // transition: all 250ms ease-in-out;
+}
+
+@mixin font($style: book) {
+    font-family: 'futura-pt', sans-serif;
+    font-style: normal;
+    font-display: swap;
+
+    @if $style==book {
+        font-weight: 400;
+    }
+
+    @if $style==bookitalic {
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @if $style==medium {
+        font-weight: 500;
+    }
+
+    @if $style==mediumitalic {
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    @if $style==heavy {
+        font-weight: 700;
+    }
+
+    @if $style==heavyitalic {
+        font-weight: 700;
+        font-style: italic;
+    }
+}

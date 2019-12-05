@@ -1,0 +1,81 @@
+@import "../mixins";
+@import "../variables";
+
+[ng-click],
+[link-to],
+button,
+a {
+    cursor: pointer;
+
+    &,
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    outline: 0;
+    -webkit-appearance: none;
+    font-size: 1rem;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+    -webkit-appearance: none;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+
+    i,
+    span {
+        height: auto;
+        line-height: 1;
+        vertical-align: middle;
+    }
+}
+
+a,
+[type=reset],
+[type=submit],
+button,
+.btn {
+    &:disabled {
+        cursor: auto;
+        pointer-events: none;
+    }
+}
+
+::-webkit-search-cancel-button {
+    display: none;
+
+    @include xs-down {
+        display: block;
+    }
+}
+
+a { 
+
+    &:hover {
+    
+    }
+}
+
+.btn {
+   
+}

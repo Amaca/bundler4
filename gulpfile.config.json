@@ -1,0 +1,48 @@
+﻿{
+  "targets": {
+    "browser": {
+      "compile": [
+        {
+          "input": "src/sass/vendor/bootstrap/bootstrap.scss",
+          "output": "docs/css/bootstrap.css"
+        },
+        {
+          "input": "src/sass/app.scss",
+          "output": "docs/css/app.css",
+          "minify": false
+        },
+        {
+          "input": "src/app/app.js",
+          "output": "docs/js/app.js",
+          "minify": false
+        }
+      ],
+      "bundle": [
+        {
+          "input": [
+            "node_modules/jquery/dist/jquery.js",
+            "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js",
+            "node_modules/gsap/src/uncompressed/easing/EasePack.js",
+            "node_modules/swiper/dist/js/swiper.js"
+          ],
+          "output": "docs/js/vendors.js",
+          "minify": false
+        },
+        {
+          "input": [
+            "node_modules/swiper/dist/css/swiper.css"
+          ],
+          "output": "docs/css/vendors.css",
+          "minify": false
+        }
+      ]
+    }
+  },
+  "options": {
+    "tfs": false,
+    "server": {
+      "src": "./docs",
+      "port": 9999
+    }
+  }
+}
