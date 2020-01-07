@@ -7,13 +7,13 @@
           "output": "docs/css/bootstrap.css"
         },
         {
-          "input": "src/sass/app.scss",
-          "output": "docs/css/app.css",
+          "input": "src/sass/main.scss",
+          "output": "docs/css/main.css",
           "minify": false
         },
         {
-          "input": "src/app/app.js",
-          "output": "docs/js/app.js",
+          "input": "src/app/main.js",
+          "output": "docs/js/main.js",
           "minify": false
         }
       ],
