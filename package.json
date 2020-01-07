@@ -1,11 +1,11 @@
 {
-    "author": "Massimo Carletti",
-    "description": "mutina",
+    "author": "Luca Zampetti",
+    "description": "bundler 4",
     "license": "ISC",
-    "name": "mutina",
+    "name": "bundler 4",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Amaca/mutina.git"
+        "url": "https://github.com/actarian/gulp-4-bundler.git"
     },
     "version": "0.1.0",
     "browserslist": {
